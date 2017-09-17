@@ -35,6 +35,13 @@ body{
 	font-weight: bold;
 
 }
+#heder{
+	font-size: 40px;
+	font-weight: bold;
+	color: lightblue;
+	font-family: "Britannic Bold";
+	text-align: center;
+}
 .a{
 	width: 660px;
 	height: 5px;
@@ -44,9 +51,37 @@ body{
 	font-weight: bold;
 
 }
+.groupBlack{
+	height: 65px;
+	width: 65px;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.groupWhite{
+	height: 65px;
+	width: 65px;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 .white:hover{
 	box-shadow: inset 0px 0px 10px 2px #0000ff;
 }
 .pink:hover{
 	box-shadow: inset 0px 0px 10px 2px #0000ff;
+}
+.selectPath{
+	box-shadow: inset 0px 0px 6px 10px #2aabd2;
+}
+.selectClick{
+	box-shadow: inset 0px 0px 6px 10px blue;
+}
+.cross{
+	box-shadow: inset 0px 0px 6px 10px red;
 }
